@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shorten URL</title>
+    <style>
+        #url-input {
+            width: 100%;
+            float: top;
+            text-align: center;
+            border-style: double;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            height: 20px;
+            color: #ade6e1;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        #url-submit {
+            position: relative;
+            height: 40px;
+            margin: 10px;
+            width: 100%;
+            float: top;
+            background-color: blanchedalmond;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+            border: #ade6e1;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="shorten">
+    <h1>
+        <label>
+            <input id="url-input" placeholder="Shorten your link" type="text" name="url-to-shorten">
+        </label>
+        <input id="url-submit" type="submit" value="Shorten">
+    </h1>
+</form>
+</body>
+</html>
